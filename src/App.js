@@ -53,7 +53,7 @@ class App extends React.Component{
     console.log(this.state.page);
     return <main>
       <div className="section-title">
-        <h1>{this.state.loading ? 'Loading...' : 'Pagination'}</h1>
+        <h1>{this.state.loading ? 'Loading...' : 'GitHub Profiles'}</h1>
         <div className="underline" />
         <section className="followers">
           <div className="container">
